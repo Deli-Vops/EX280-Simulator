@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bbs
+  namespace: wheel
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bbs
+  template:
+    metadata:
+      labels:
+        app: bbs
+    spec:
+      containers:
+        - name: container
+          image: httpd:latest
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          resources:
+            requests:
+              memory: "100Ti"
+            limits:
+              memory: "100Ti"
+          imagePullPolicy: Always
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  revisionHistoryLimit: 2
+  progressDeadlineSeconds: 600
