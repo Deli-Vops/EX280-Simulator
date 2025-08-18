@@ -16,6 +16,8 @@ htpasswd -c -B htpasswd-brake-glass adminuser YourSafetyPasswordHere
 **Result:** 
 File htpasswd-brake-glass containing user **adminuser** with password **YourSafetyPasswordHere** (hashed).
 
+---
+
 ## 2. Create a secret in openshift-config
 
 ```bash
