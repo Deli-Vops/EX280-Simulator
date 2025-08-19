@@ -120,13 +120,15 @@ status: {}
 
 Finally, we can perform the following validation:
 
-> oc exec -n frontend pod/nginx -- curl -s httpd.backend.svc.cluster.local
->
-> We should get 
-> **It works!**
+```bash 
+oc exec -n frontend pod/nginx -- curl -s httpd.backend.svc.cluster.local
 
-> oc exec -n frontend pod/busybox -- curl -s httpd.backend.svc.cluster.local
->
-> We should get 
-> **Error**
+We should get 
+**It works!**
+#revisar
+oc exec -n frontend pod/busybox -- curl -s httpd.backend.svc.cluster.local
+
+We should get
+**Error**
 #Revisar
+```
