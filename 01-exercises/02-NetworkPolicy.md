@@ -5,10 +5,10 @@
 ## Requirements and Steps
 
 Project frontend with:
-- Pod nginx labeled run=nginx
-- Pod busybox labeled run=not-nginx
+- Pod nginx labeled **run=nginx**
+- Pod busybox labeled **run=not-nginx**
 Project backend with:
-- Pod httpd labeled run=httpd
+- Pod httpd labeled **run=httpd**
 
 ### 1. Deny all ingress traffic to the backend namespace by default
 
