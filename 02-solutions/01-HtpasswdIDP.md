@@ -22,7 +22,8 @@ htpasswd -B -b ex280.htpasswd bob bob
 oc create secret generic ex280-htpasswd --from-file=htpasswd=ex280.htpasswd -n openshift-config 
 
 # vim ex280-htpasswd.yaml 
-
+```
+```yaml
 apiVersion: config.openshift.io/v1
 kind: OAuth
 metadata:
@@ -35,7 +36,9 @@ spec:
     htpasswd:
       fileData:
         name: htpasswd
-# revisar
+```
+```bash
+# Check
 
 oc apply -f ex280-htpasswd.yaml
 ```
