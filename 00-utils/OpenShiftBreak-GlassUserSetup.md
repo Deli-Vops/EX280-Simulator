@@ -19,7 +19,7 @@ File htpasswd-brake-glass containing user **adminuser** with password **YourSafe
 
 ---
 
-## 2. Create a secret in openshift-config
+## 2. Create a secret in openshift-config
 
 ```bash
 oc create secret generic htpasswd-brake-glass --from-file=htpasswd=htpasswd-brake-glass -n openshift-config
@@ -31,7 +31,10 @@ The key htpasswd contains the file content.
 
 The secret will be referenced by the authentication operator.
 
-## 3. Configure the OAuth Identity Provider
+---
+
+## 3. Configure the OAuth Identity Provider
+
 Edit the OAuth cluster configuration:
 
 ```bash
@@ -62,7 +65,7 @@ The new **brake-glass** login option will appear in the web console.
 
 ---
 
-## 4. Grant cluster-admin privileges
+## 4. Grant cluster-admin privileges
 
 Creates/updates a ClusterRoleBinding granting cluster-admin to adminuser.
 
@@ -97,7 +100,7 @@ oc auth can-i '*' '*' --all-namespaces
 
 - Full administrative privileges with cluster-admin.
 
-## Best Practices
+## Best Practices
 
 If you are using this procedure in a real environment, please: 
 - Use a stronger password than **YourSafetyPasswordHere**.
