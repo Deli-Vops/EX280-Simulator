@@ -51,11 +51,11 @@ Append this to .spec.identityProviders:
       name: htpasswd-brake-glass
 ```
 
-fileData.name: references the secret created in step 2. If you dont change any command, it will works (I hope so).
+> fileData.name: references the secret created in step 2. If you dont change any command, it will works (I hope so).
 
-name: brake-glass: label shown on the login page. We want a descriptive name.
+> name: brake-glass: label shown on the login page. We want a descriptive name.
 
-mappingMethod: claim: keeps the same username from the IdP.
+> mappingMethod: claim: keeps the same username from the IdP.
 
 ---
 
