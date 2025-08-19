@@ -7,6 +7,7 @@
 Project frontend with:
 - Pod nginx labeled **run=nginx**
 - Pod busybox labeled **run=not-nginx**
+
 Project backend with:
 - Pod httpd labeled **run=httpd**
 
