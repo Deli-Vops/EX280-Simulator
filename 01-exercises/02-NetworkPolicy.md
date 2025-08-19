@@ -26,7 +26,8 @@ oc exec -n frontend pod/nginx -- curl -s httpd.backend.svc.cluster.local
 
 We should get 
 **It works!**
-#revisar
+
+
 oc exec -n frontend pod/busybox -- curl -s httpd.backend.svc.cluster.local
 
 We should get
