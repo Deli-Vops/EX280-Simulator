@@ -1,19 +1,6 @@
 
 EX 280 - Steps on exam
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Authenticación htpasswd
-creación de usuarios
-eliminación kubeadmin
-creación de grupos
-roles a usuarios
-roles a grupos
-
-Creación de projects
-
-Netpols
-
 Deployment - project grapes
 - Creación de deployment desde cero con secret o configmap como variable de entorno
 - probes
