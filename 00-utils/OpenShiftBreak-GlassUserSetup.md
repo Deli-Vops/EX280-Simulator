@@ -11,6 +11,7 @@ htpasswd -c -B htpasswd-brake-glass adminuser YourSafetyPasswordHere
 ```
 
 > -c: create the file (overwrites if it already exists).
+
 > -B: use bcrypt for secure hashing.
 
 **Result:** 
