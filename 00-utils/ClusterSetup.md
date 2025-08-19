@@ -38,11 +38,13 @@ Come, do it.
 
 We require multiple pods for the network policies exercise. Run the following commands to create them. We are using Nginx pods because they are the faster option.
 
-> #Frontend
-> oc run nginx --image=nginx --restart=Always --port=80 -l run=nginx -n frontend
-> oc expose pod nginx --port=80 --target-port=80 -n frontend
-> oc run busybox --image=busybox --restart=Never -l run=not-nginx -n frontend -- sleep 3600
+```bash
+#Frontend
+oc run nginx --image=nginx --restart=Always --port=80 -l run=nginx -n frontend
+oc expose pod nginx --port=80 --target-port=80 -n frontend
+oc run busybox --image=busybox --restart=Never -l run=not-nginx -n frontend -- sleep 3600
 
-> #Backend
-> oc run httpd --image=httpd --restart=Always --port=80 -l run=httpd -n backend
-> oc expose pod httpd --port=80 --target-port=80 -n backend
+#Backend
+oc run httpd --image=httpd --restart=Always --port=80 -l run=httpd -n backend
+oc expose pod httpd --port=80 --target-port=80 -n backend
+```
