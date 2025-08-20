@@ -1,14 +1,6 @@
 
 EX 280 - Steps on exam
 
-Escalado manual 
-
-    Your girlfriend isn’t scared of a ghost, but if you scale the casper deployment in the ghosts project from 1 to 10 replicas, even it will be terrified.”
-
-HPA - confucio
-
-    Scale the kungfu-panda deployment in the confucio project with an HPA — watch it grow from 1 to 5 replicas when CPU hits 50%, faster than a panda chasing bamboo! Even Confucius would be impressed
-
 LimitRange y Quotas - napoleon
 
 instalación con helm - videoclub
