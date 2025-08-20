@@ -11,8 +11,8 @@ This repository contains hands-on exercises to help you prepare for the **EX280 
 
 | #  | Setup | Setup Link|
 |----|----------|---------------|
-| 01 | ClusterSetup | [ClusterSetup.md](ClusterSetup/ClusterSetup.md) |
-| 02 | OpenShiftBreak-GlassUserSetup | [OpenShiftBreak-GlassUserSetup.md](ClusterSetup/OpenShiftBreak-GlassUserSetup.md) |
+| 01 | ClusterSetup | [ClusterSetup.md](00-utils/ClusterSetup.md) |
+| 02 | OpenShiftBreak-GlassUserSetup | [OpenShiftBreak-GlassUserSetup.md](00-utils/OpenShiftBreak-GlassUserSetup.md) |
 
 - `01-exercises/` → Exercise `.md` files.
 - `02-solutions/` → Solution `.md` files corresponding to each exercise.
