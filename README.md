@@ -6,3 +6,5 @@
 - 04 - Manual Scale
 - 05 - HPA
 - 06 - must-gather
+- 07 - LimitRange and Resource Quotas
+- 08 - A broken deployment
