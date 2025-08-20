@@ -26,6 +26,10 @@ This repository contains hands-on exercises to help you prepare for the **EX280 
 | 07 | LimitRange & Resource Quotas | [07.md](01-exercises/07.md) | [07.md](02-solutions/07.md) |
 | 08 | A Broken Deployment | [08.md](01-exercises/08.md) | [08.md](02-solutions/08.md) |
 | 09 | SCC | [09.md](01-exercises/09.md) | [09.md](02-solutions/09.md) |
+| 10 | Helm | Pending | Pending |
+| 11 | Route | Pending | Pending |
+| 12 | template projects | Pending | Pending |
+| 13 | Deployment with NFS | Pending | Pending |
 
 ---
 
