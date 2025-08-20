@@ -8,6 +8,12 @@ This repository contains hands-on exercises to help you prepare for the **EX280 
 ## Repository Structure
 
 - `00-utils/` → Markdown files and YAML manifests to prepare your OpenShift cluster. Run these first to get your cluster ready.
+
+| #  | Setup | Setup Link|
+|----|----------|---------------|
+| 01 | ClusterSetup | [ClusterSetup.md](ClusterSetup/ClusterSetup.md) |
+| 02 | OpenShiftBreak-GlassUserSetup | [OpenShiftBreak-GlassUserSetup.md](ClusterSetup/OpenShiftBreak-GlassUserSetup.md) |
+
 - `01-exercises/` → Exercise `.md` files.
 - `02-solutions/` → Solution `.md` files corresponding to each exercise.
 
