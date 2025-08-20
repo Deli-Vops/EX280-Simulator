@@ -5,3 +5,4 @@
 - 03 - Deployment, probe, configmap and secret
 - 04 - Manual Scale
 - 05 - HPA
+- 06 - must-gather

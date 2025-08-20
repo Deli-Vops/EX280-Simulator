@@ -1,6 +1,6 @@
 # Cluster Setup
 
-This guide provides the YAML files you need to prepare a cluster for EX280.
+This guide provides the YAML files you need to prepare a cluster for lab EX280.
 
 ---
 
