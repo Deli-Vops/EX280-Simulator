@@ -14,10 +14,4 @@ routes / Cliente a route cifrado, de route a pod sin cifrar con una custom cert 
 
 template de projects - bull
 
-deployment con problemas - wheel
-
 deployment con almacenamiento nfs - Pendiente
-
-Service account con anyuid y deployment que no arranca (apache que debe acceder como root) - comanche
-
-    oc adm policy add-scc-to-user anyuid -z comanche-sa -n comanche

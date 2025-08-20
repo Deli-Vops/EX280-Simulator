@@ -8,3 +8,4 @@
 - 06 - must-gather
 - 07 - LimitRange and Resource Quotas
 - 08 - A broken deployment
+- 09 - SCC
