@@ -1,10 +1,6 @@
 
 EX 280 - Steps on exam
 
-Deployment - project grapes
-- Creación de deployment desde cero con secret o configmap como variable de entorno
-- probes
-
 Escalado manual 
 
     Your girlfriend isn’t scared of a ghost, but if you scale the casper deployment in the ghosts project from 1 to 10 replicas, even it will be terrified.”
